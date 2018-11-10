@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My First Gulp Project</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header-main-block">
+			<div class="header-section">
+				<div class="header-logo"><img class="graficlogo" src="img/Logo.png" alt="Logo"></div>
+				<div class="header-nav">
+					<a href="#">Reality</a>
+					<a href="#">Living</a>
+					<a href="#">Education</a>
+					<a href="#">Entertainment</a>
+					<a href="#">Mobility</a>
+				</div>
+				<div class="header-item header-icon">
+					<form>
+						<label>
+							<input type="search" placeholder=""><i class="fa fa-search" aria-hidden="true"></i>
+						</label>
+					</form>
+				</div>
+				<div class="header-login">
+					<button class="graficlogo">
+						<input type="button" onclick="showModalWin()"><i class="fa fa-user" aria-hidden="true"></i>Login
+					</button>
+					<div class="additional-block"></div>
+				</div>
+			</div>		
+		</header>
+		<div class="main-image-block">
+			<div class="image-wrap">
+				<div class="image-section"></div>
+				<div class="shadow"></div>
+			</div>
+			<div class="content-width main-block-content">
+				<div class="main-title">What are you looking for?</div>
+				<div class="two-buttons-block"> 
+					<div class="select-wrap">
+						<button type="button" class="btn-selected">Dubai</button>
+						<div class="select-options-wrap hide">
+							<button type="button" class="option">Dubai</button>
+							<button type="button" class="option">Roma</button>
+							<button type="button" class="option">Egypt</button>
+							<button type="button" class="option">Gavai</button>
+						</div>
+					</div>
+					<div class="select-wrap">
+						<button type="button" class="btn-selected">Education</button>
+						<div class="select-options-wrap hide">
+							<button type="button" class="option">Education</button>
+							<button type="button" class="option">Mobility</button>
+							<button type="button" class="option">Living</button>
+							<button type="button" class="option">Reality</button>
+						</div>
+					</div>
+				</div>
+				<div class="personal-information">
+					<input class="info" type="passwpord" placeholder="Keyword, name, date,...">
+				</div>
+				<button class="search-button">Search</button>
+			</div>
+		</div>
+		<div class="nav-wrap">
+			<div class="navigation">
+				<div class="nav-list">
+					<a href="#">Recommended</a>
+					<a href="#">Latest</a>
+					<a href="#">Highlights</a>
+				</div>	
+				<div class="nav-buttons">
+					<div class="select-wrap">
+						<button type="button" class=" btn-selected select-icon-btn">Dubai</button>
+						<div class="select-options-wrap hide">
+							<button type="button" class="option">Dubai</button>
+							<button type="button" class="option">Roma</button>
+						</div>
+					</div>
+					<button class="maps-icon-btn">Show map<i class="fa fa-map-marker"></i></button>
+				</div>
+				<div class="choice-menu">
+					<div class="choice-item">Filter:</div>
+					<div class="nav-section">
+						<button class="adress-section"><img class="index-picture" src="img/builds.png"></button>
+						<button class="person-section"><img class="index-picture" src="img/man.png"></button>
+						<button class="training-section"><img class="index-picture" src="img/sience.png"></button>
+						<button class="music-section"><img class="index-picture" src="img/music.png"></button>
+						<button class="transport-section"><i class="fa fa-bus" aria-hidden="true"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main class="central-container">
+			<div class="boxes-wrap"></div>
+		<div class="">
+			<div class="additional-information">
+				<button class="discover-item">Load more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+			</div>
+			<div class="choice-block">
+				<div class="choice-title">What can DuHoot offer to you?</div>
+				<p>Etiam curcus ipsum quis enim faucibus</p>
+			</div>
+			<div id="container">
+				<input id="tab-1" type="radio" name="tab-group" checked="checked" />
+				<label for="tab-1"></label>
+				<div class="line"></div>
+				<input id="tab-2" type="radio" name="tab-group" checked="checked"/>
+				<label for="tab-2"></label>
+				<div class="line"></div>
+				<input id="tab-3" type="radio" name="tab-group" checked="checked"/>
+				<label for="tab-3"></label>
+				<div class="line"></div>
+				<input id="tab-4" type="radio" name="tab-group" checked="checked"/>
+				<label for="tab-4"></label>
+				<div class="line"></div>
+				<input id="tab-5" type="radio" name="tab-group" checked="checked" />
+				<label for="tab-5"></label>
+				<h2>Reality</h2>
+				<div id="content">
+					<div id="content-1">
+						<i class="fa fa-bolt" aria-hidden="true"></i>
+						<p class="left">Cum sociis natoque penatibus et magnis dis parturient montes,nascetur ridiculus mus.Morbi gravida tellus in purus pharetra,vel dignissim mauris viverra.Maecenas vitae risus est.In hendrerit,massa at.</p>
+						<i class="fa fa-leaf" aria-hidden="true"></i>
+						<p class="left-last">Cum sociis natoque penatibus et magnis dis parturient montes,nascetur ridiculus mus.Morbi gravida tellus in purus pharetra,vel dignissim mauris viverra.Maecenas vitae risus est.In hendrerit,massa at.</p>
+					</div>
+					<div id="content-2">
+						<i class="fa fa-bolt" aria-hidden="true"></i>
+						<p class="column-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, est, nisi enim voluptates dicta quibusdam recusandae eveniet provident non at nostrum nesciunt laudantium omnis aliquam debitis magni expedita cumque tempore.</p>
+					</div>
+					<div id="content-3">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, aperiam, enim odit placeat minus ab vero molestiae ad fugit maiores eaque saepe debitis assumenda ut ipsam eius sit repellendus dolore.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, accusantium, provident ab quo sed blanditiis perspiciatis distinctio aut voluptatibus cum odio quaerat iure vel dolorum fugit explicabo suscipit tenetur. Sed!</p>
+					</div>
+					<div id="content-4">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, aperiam, enim odit placeat minus ab vero molestiae ad fugit maiores eaque saepe debitis assumenda ut ipsam eius sit repellendus dolore.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, accusantium, provident ab quo sed blanditiis perspiciatis distinctio aut voluptatibus cum odio quaerat iure vel dolorum fugit explicabo suscipit tenetur. Sed!</p>
+					</div>
+					<div id="content-5">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, aperiam, enim odit placeat minus ab vero molestiae ad fugit maiores eaque saepe debitis assumenda ut ipsam eius sit repellendus dolore.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, accusantium, provident ab quo sed blanditiis perspiciatis distinctio aut voluptatibus cum odio quaerat iure vel dolorum fugit explicabo suscipit tenetur. Sed!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</main>
+		<footer class="footer-section">
+			<div class="main-image-block">
+				<div class="image-wrap">
+					<div class="image-section"></div>
+				</div>
+				<div class="footer-text-section">
+					<div class="footer-title">Subscribe to our newsletter</div>
+					<div class="footer-button-block">
+						<i class="fa fa-envelope-o" aria-hidden="true"></i>
+						<div class="email-block">
+							<input class="email-adress" type="email" placeholder="your@email.com">
+							<button class="search-button">Subscribe</button>
+						</div>
+					</div>
+					<div class="main-footer-section">
+						<div class="catalog-section">
+							<div class="catalog-item">Ipsum quis</div>
+							<p>Aliquam quis</p>
+							<p>Pulvinar purus</p>
+							<p>Etiam curcus</p>
+							<p>Ipsum quis</p>
+							<p>Enim faucibus</p>
+						</div>
+						<div class="catalog-section">
+							<div class="catalog-item">Ipsum quis</div>
+							<p>Aliquam quis</p>
+							<p>Pulvinar purus</p>
+							<p>Etiam curcus</p>
+							<p>Ipsum quis</p>
+							<p>Enim faucibus</p>
+						</div>
+						<div class="links-section">
+							<div class="catalog-item">Follow us</div>
+							<div class="social-icon">
+								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#"><img src="img/google icon.png" ></a>
+								<a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+							</div>
+							<div class="copyright-section">Copyright &copy; All Rights reserved</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</footer>	
+	</div>
+	<div id="popupWin" class="modalwin">
+		<h3>Registration Form</h3>
+        <form>
+            <input type="text" placeholder="Login">
+            <input type="text" placeholder="Password">
+            <input type="button" value="OK">
+        </form> 
+    </div>
+	<script src="js/script.js"></script>
+</body>
+</html>
